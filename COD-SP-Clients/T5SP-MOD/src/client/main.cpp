@@ -84,9 +84,9 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
         // calls the shit (Overlay doesnt work needs fixed)
     case DLL_PROCESS_DETACH:
         LogToFile("[*] DllMain: DLL_PROCESS_DETACH.");
-        LogToFile("[*] Calling InitOverlay()...");
-        InitOverlay();
-        LogToFile("[*] InitOverlay() returned.");
+        //LogToFile("[*] Calling InitOverlay()...");
+        //InitOverlay();
+        //LogToFile("[*] InitOverlay() returned.");
         FreeConsole();
         break;
     }
